@@ -1,3 +1,5 @@
+# Currentlymy test Mac is bricked and it may take some time for it to be repaired. Please contact to the address in all the way below of README to make commits.
+
 # Big Sur Automator (BSR) 0.1.7alpha-r2 is Released!
 current version: 0.1.7alpha-r2
 NOTE: I OWN NONE OF THE TOOLS AND STUFF THAT THIS AUTOMATOR USES. I DIDN'T MAKE THIS FOR PERSONAL GAINS. INFACT I MADE THIS FOR MAKE PATCHING MUCH EASIER FOR USERS. I'LL TAKE THIS REPOSITORY DOWN IF THE TOOL OWNER REQUESTS.
@@ -41,3 +43,10 @@ Updated stuff (compared to 0.1.7alpha-r1-nfp)
 - Jumped the release tag to release 1 (r1) to release 2 (r2), adding an extra "-alpha" to the version.
 - Added the "rm" command to delete InstallAssistant.pkg and big-sur-micropatcher files to reduce space waste. Significantly reduces the downloaded size by 10 ~ 13 GBs. May have some leftovers, working on a fix for that.
 - Updated README.md file over 10 times in less than an hour, changes made are too long to list.
+
+# Contact
+iMessage: json.us@icloud.com
+Telegram: nonforgettable
+Public e-mail: joowhanlee.devel@gmail.com json.us@icloud.com 
+
+
