@@ -44,6 +44,13 @@ Updated stuff (compared to 0.1.7alpha-r1-nfp)
 - Added the "rm" command to delete InstallAssistant.pkg and big-sur-micropatcher files to reduce space waste. Significantly reduces the downloaded size by 10 ~ 13 GBs. May have some leftovers, working on a fix for that.
 - Updated README.md file over 10 times in less than an hour, changes made are too long to list.
 
+# How to update in the future
+ Now, I've almost gave up making this glorified unstable patch automator because of updating. Unsupported Macs does not get official Apple updates from the USB. Here's some ways you can update. Keep in mind updating may fail and leave your successful (maybe) installation on seizure. And NO, I'm not EVER updating the script to change the update link.
+ 
+ - USB method (ez)
+ Replace the swcdn.apple.com link with the update link. You may ask for latest update link in the macOS on Unsupported Mac Discord server. https://discord.gg/XbbWAsE
+  
+
 # Contact
 iMessage: json.us@icloud.com
 Telegram: nonforgettable
