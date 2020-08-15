@@ -1,4 +1,4 @@
-# Currently my test Mac is bricked and it may take some time for it to be repaired. Please contact to the address in all the way below of README to make commits.
+# Big Sur Automator - Patching has never been easier (maybe) PAT PEND (maybe x2)
 
 # Big Sur Automator (BSR) 0.1.7alpha-r2 is Released!
 current version: 0.1.7alpha-r2
