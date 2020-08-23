@@ -1,7 +1,7 @@
 # Big Sur Automator - Patching has never been easier (maybe) PAT PEND (maybe x2)
 
-# Big Sur Automator (BSR) 0.1.7alpha-r2 is Released!
-current version: 0.1.7alpha-r2
+# Big Sur Automator (BSR) 0.1.8alpha is Released!
+current version: 0.1.8alpha
 NOTE: I OWN NONE OF THE TOOLS AND STUFF THAT THIS AUTOMATOR USES. I DIDN'T MAKE THIS FOR PERSONAL GAINS. INFACT I MADE THIS FOR MAKE PATCHING MUCH EASIER FOR USERS. I'LL TAKE THIS REPOSITORY DOWN IF THE TOOL OWNER REQUESTS.
 CREDITS: barrykn for the micropatcher used. https://www.github.com/barrykn/micropatcher
 
@@ -32,17 +32,12 @@ If some features are disabled like WiFi (most common), this extra guide will pro
 # Final Note
 This is still in test.
 
-# Release v0.1.7alpha-r2 changelog
+# Release v0.1.8alpha changelog
 Fixes lot's of command bugs.
 Updated stuff (compared to 0.1.7alpha-r1-nfp)
-- Fixes command typos
-- Cuts the whole process of installing homebrew and WGET by replacing WGET with CURL
-- Updates the link to download beta 2, the link may go down sometimes but much stable on unsupported Macs compared to beta 3.
-- Fixes the issue where the PKG file downloaded won't install. It fixes the "File wasn't found" error, but requires the USB named "volume" to be plugged the entire process. Working on a alternative fix soon but this is the replacement for now.
-- Now for downloading the patcher, it uses "git", not wget. This helps to cut the entire homebrew process but git command requires for Xcode command line utility to be installed, which may take some time. Working on a fix for this, but git is a alternative replacement for now.
-- Jumped the release tag to release 1 (r1) to release 2 (r2), adding an extra "-alpha" to the version.
-- Added the "rm" command to delete InstallAssistant.pkg and big-sur-micropatcher files to reduce space waste. Significantly reduces the downloaded size by 10 ~ 13 GBs. May have some leftovers, working on a fix for that.
-- Updated README.md file over 10 times in less than an hour, changes made are too long to list.
+- cURL Script: Fixed permission issues by setting asking users to set a UNIX password
+- Alternate script: WGET removed because cURL script is tested and no bugs we're found. (Credits to Daniel Hunt :>)
+- README.md Added more contact ways 
 
 # How to update in the future
  Now, I've almost gave up making this glorified unstable patch automator because of updating. Unsupported Macs does not get official Apple updates from the USB. Here's some ways you can update. Keep in mind updating may fail and leave your successful (maybe) installation on seizure. And NO, I'm not EVER updating the script to change the update link.
@@ -54,6 +49,9 @@ Updated stuff (compared to 0.1.7alpha-r1-nfp)
 # Contact
 iMessage: json.us@icloud.com
 Telegram: nonforgettable
-Public e-mail: joowhanlee.devel@gmail.com json.us@icloud.com 
+Twitter: https://www.twitter.com/NonForgettable_
+Discord: 아잇#3602, Moving to a new account#7705
+Reddit: u/cantinnovatemore
+Public e-mail: joowhanlee.devel@gmail.com json.us@icloud.com json.us@outlook.com  
 
 
