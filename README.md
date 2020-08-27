@@ -1,6 +1,6 @@
-# Big Sur Automator - Patching has never been easier (maybe) PAT PEND (maybe x2)
+# Good news! New Macs are on shipping right now, so expect updates here now and then!
 
-# Big Sur Automator (BSR) 0.1.8alpha is Released!
+# Big Sur Automator - Patching has never been easier 
 current version: 0.1.8alpha
 NOTE: I OWN NONE OF THE TOOLS AND STUFF THAT THIS AUTOMATOR USES. I DIDN'T MAKE THIS FOR PERSONAL GAINS. INFACT I MADE THIS FOR MAKE PATCHING MUCH EASIER FOR USERS. I'LL TAKE THIS REPOSITORY DOWN IF THE TOOL OWNER REQUESTS.
 CREDITS: barrykn for the micropatcher used. https://www.github.com/barrykn/micropatcher
