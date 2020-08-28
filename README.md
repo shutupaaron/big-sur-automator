@@ -1,4 +1,4 @@
-# Good news! New Macs are on shipping right now, so expect updates here now and then!
+# Good news! New Mac (iMac 27' 2017) are on shipping right now, so expect updates here now and then!
 
 # Big Sur Automator - Patching has never been easier 
 current version: 0.1.8alpha
