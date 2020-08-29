@@ -12,7 +12,7 @@ This patch automator is still in test and it might have some issues in the comma
 BSR changes the whole step to make a patched Big Sur USB into simple lines of script texts. So rather than making a USB and fail, get help from the community over and over until you success, all you have to do is paste some lines of code made by an experienced guy into an app and let it happen automatically!
 
 # Simple Guide 
-1. Format your USB as the following: Map: GUID Partition Map | Format: HFS+ (macOS Extended Journal) | Name: volume | No capitals in name.
+1. Format your USB as the following: Map: GUID Partition Map | Format: JHFS+ (macOS Extended Journal) | Name: volume | No capitals in name.
 2. open the provided text file in the repository, copy the texts in there, paste it into terminal, run it and let the script do all the magic. 
 3. Reboot. If it doesn't boot into the USB, just option boot into the USB.
 [this is where it gets risky. well not much... just a bit]
