@@ -1,5 +1,5 @@
 #!/bin/bash
-echo big sur automator nonrelease 019 publicbeta
+echo big sur automator X stable
 curl -o /Users/Shared/InstallAssistant.pkg --url http://swcdn.apple.com/content/downloads/22/49/001-36806-A_PLHUUGQ7C6/y680rlbwudm0kr7kugbt658ot99pqyo9hv/InstallAssistant.pkg
 installer -store -pkg "/Users/Shared/InstallAssistant.pkg" -target /
 /Applications/Install\ macOS\ Big\ Sur\ Beta.app/Contents/Resources/createinstallmedia --nointeraction --volume /Volumes/volume
