@@ -2,7 +2,7 @@
 
 # What is this? 
 Big Sur automator is a tool that installs the latest macOS Big Sur Beta (You can choose public beta, or developer beta.) on a UNSUPPORTED Mac, allowing you to juice your Mac
-even more.  
+even more. Also, since version 1.0 stable, it's completly written in shell language, 100% compatible with most macOS versions. 
 
 # Instructions
 
