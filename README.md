@@ -6,6 +6,8 @@ even more. Also, since version 1.0 stable, it's completly written in shell langu
 
 # Instructions
 
+0. UNPLUG ALL EXTERNAL DISKS CONNECTED EXCEPT YOUR USB to USE WITH BIG SUR. ALL DATA WILL BE ERASED
+
 1. Run the commands below step by step on the terminal app
 '''
 git clone https://github.com/nonforgettable/big-sur-automator
@@ -14,7 +16,7 @@ git clone https://github.com/nonforgettable/big-sur-automator
 cd big-sur-automator
 '''
 
-2. Format your USB drive to the configuration under (using disk utility).
+2. (This step is automated now) Format your USB drive to the configuration under (using disk utility).
 macOS Extended Journal, Name: volume (no caps), GUID Partition Map
 
 3. Go back to terminal and see below, there should be two commands, Run the 1) command if you want developer beta, 2) for public beta
