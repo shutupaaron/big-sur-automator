@@ -1,6 +1,6 @@
 #!/bin/bash
 echo -e “e[0;33mBig Sur Automator X Stable[0m”
-curl -o /Users/Shared/InstallAssistant.pkg --url http://swcdn.apple.com/content/downloads/34/37/001-26097-A_OYW4Z0U99Z/gdas3ubse9fasb0217grmmyplfd6o7mqfp/InstallAssistant.pkg
+curl -o /Users/Shared/InstallAssistant.pkg --url http://http://swcdn.apple.com/content/downloads/22/49/001-36806-A_PLHUUGQ7C6/y680rlbwudm0kr7kugbt658ot99pqyo9hv/InstallAssistant.pkg
 installer -store -pkg "/Users/Shared/InstallAssistant.pkg" -target /
 /Applications/Install\ macOS\ Big\ Sur\ Beta.app/Contents/Resources/createinstallmedia --nointeraction --volume /Volumes/volume
 git clone https://www.github.com/barrykn/big-sur-micropatcher
