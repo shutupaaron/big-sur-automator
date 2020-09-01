@@ -6,7 +6,6 @@ installer -store -pkg "/Users/Shared/InstallAssistant.pkg" -target /
 git clone https://www.github.com/barrykn/big-sur-micropatcher
 sh ~/big-sur-micropatcher/micropatcher.sh
 nvram boot-args="-no_compat_check amfi_get_out_of_my_way" echo Success
- bless -mount /Volumes/Install\ macOS\ Big\ Sur\ Beta --setBoot
- rm -rf ~/big-sur-micropatcher
- rm -rf /Users/Shared/InstallAssistant.pkg
+bless -mount /Volumes/Install\ macOS\ Big\ Sur\ Beta --setBoot
+echo to delete the downloaded files check the readme
 echo success
