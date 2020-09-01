@@ -21,7 +21,7 @@ macOS Extended Journal, Name: volume (no caps), GUID Partition Map
 
 4. Let the automator to the magic. It will make a macOS Big Sur installer USB, patch it and attempt to set the USB as the default boot volume.
 
-Go to https://github.com/barrykn/big-sur-micropatcher#quick-instructions-for-use and follow the guides there. If you follow it and everything works except WiFi, etc, see below.
+Go to https://github.com/barrykn/big-sur-micropatcher#quick-instructions-for-use and follow the from the step 4. 1~3 is already done by the automator. If you follow it and everything works except WiFi, etc, see below.
 
 # Hardware drivers fix
 
