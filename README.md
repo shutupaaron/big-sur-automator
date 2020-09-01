@@ -7,9 +7,12 @@ even more. Also, since version 1.0 stable, it's completly written in shell langu
 # Instructions
 
 1. Run the commands below step by step on the terminal app
-
+'''
 git clone https://github.com/nonforgettable/big-sur-automator
+'''
+'''
 cd big-sur-automator
+'''
 
 2. Format your USB drive to the configuration under (using disk utility).
 macOS Extended Journal, Name: volume (no caps), GUID Partition Map
