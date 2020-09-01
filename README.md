@@ -29,3 +29,19 @@ Go to https://github.com/barrykn/big-sur-micropatcher#quick-instructions-for-use
 2. Open terminal and type the command below
 
 /Volumes/Image\ Volume/patch-kexts.sh
+
+# big-sur-automator related links and certified forks
+- **https://www.github.com/nonforgettable/big-sur-automator/canary Canary on-development versions
+- **https://www.github.com/TimothyRLaMora734/big-sur-automator** Legacy fork of BSA
+- **https://www.github.com/NotDan2/big-sur-automator** Unofficial fork of BSA. More frequent changes
+- **https://github.com/nonforgettable/big-sur-automator/blob/master/for%20forkers/forker%20documentation** Developer documentation for forkers and reverse engineers or people who are intrested to file pull request
+
+# big-sur-automator certified contacts
+iMessage: json.us@icloud.com
+Telegram: nonforgettable 
+Email: json.us@icloud.com
+Email 2: joowhanlee.devel@gmail.com
+Email 3: json.us@outlook.com
+
+Contact if you have a problem thats too simple for a issue, help for forking, other development questions and pull request acception requests. 
+
