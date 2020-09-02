@@ -50,3 +50,6 @@ Email 3: json.us@outlook.com
 
 Contact if you have a problem thats too simple for a issue, help for forking, other development questions and pull request acception requests. 
 
+# Beta / Dev / Canary test
+Currently, only canary version exists and it's fully open to users (https://www.github.com/nonforgettable/big-sur-automator/canary) but, it will soon be closed soon. Contact me via above to request to be a beta / dev / canary tester. 
+
