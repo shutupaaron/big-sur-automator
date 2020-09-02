@@ -1,11 +1,9 @@
-while true; do
-    read -p "Do you wish to run big-sur-automator? Yes or no" yn
-    case $yn in
-        [yes]* ) continue;;
-        [no]* ) echo Canceling  exit;;
-        * ) echo "Please answer yes or no.";;
-    esac
-done
+echo "Do you wish to continue?"
+select yn in "Yes" "No"
+case $yn in
+    Yes ) continue;;
+    No ) exit;;
+esac
 echo -e “e[0;33mBSA Codename dualone canary[0m”
 if [ -e "/Users/Shared/InstallAssistant.pkg" ]; then
     echo 'BSInstaller already exists continuing without downloading' >&2
@@ -23,13 +21,11 @@ fi
 git clone https://www.github.com/barrykn/big-sur-micropatcher
 sh ~/big-sur-micropatcher/micropatcher.sh
 nvram boot-args="-no_compat_check amfi_get_out_of_my_way" 
-while true; do
-    read -p "Do you wish to set the USB as the boot volume?" yn
-    case $yn in
-        [yes]* ) continue;;
-        [no]* ) exit;;
-        * ) echo "Please answer yes or no.";;
-    esac
-done
+echo "Do you wish to continue?"
+select yn in "Yes" "No"
+case $yn in
+    Yes ) continue;;
+    No ) exit;;
+esac
 bless -mount /Volumes/Install\ macOS\ Big\ Sur\ Beta --setBoot
 echo Success
