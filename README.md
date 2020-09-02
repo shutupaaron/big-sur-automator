@@ -24,16 +24,21 @@ macOS Extended Journal, Name: volume (no caps), GUID Partition Map
 1) sudo sh nightlybsa.sh
 2) sudo sh nightlybsapublicbeta.sh
 
-4. Let the automator to the magic. It will make a macOS Big Sur installer USB, patch it and attempt to set the USB as the default boot volume.
+4. Let the automator to the magic. It will make a macOS Big Sur installer USB, patch it and attempt to set the USB as the default boot volume
+5. Reboot. If it doesn't boot into the USB, just option boot into the USB.
+[this is where it gets risky. well not much... just a bit]
+6. Open Disk Utility, select the entire internal disk and erase it as following: Format: APFS | Name: Big Sur | Alternative name: BS | Map: GUID Partition Map
+7. Command + Q out of Disk Utility, open terminal (Menu bar > Utilities > Terminal) and type: /Volumes/Image\ Volume/set-vars.sh
+8. Command + Q out of Terminal and install macOS normally on the internal disk. Come back after a few hours or so and Big Sur will be installed. Wait, this isn't the end. Maybe.
+9. Set up your Mac and test if everything works well. If it doesn't, try following the optional guide.
 
-Go to https://github.com/barrykn/big-sur-micropatcher#quick-instructions-for-use and follow the from the step 4. 1~3 is already done by the automator. If you follow it and everything works except WiFi, etc, see below.
-
-# Hardware drivers fix
-
-1. Boot back into patched USB
-2. Open terminal and type the command below
-
-/Volumes/Image\ Volume/patch-kexts.sh
+# Kext Patch like a charm [Optional]
+If some features are disabled like WiFi (most common), this extra guide will probably fix it. Big Sur drops support on some hardwares on old Macs. Well, fix it.
+1. Boot into the patched recovery USB
+2. Open up terminal (Menu bar > Utilities > Terminal)
+3. Enter following: /Volumes/Image\ Volume/patch-kexts.sh /Volumes/
+4. Don't run it just yet, now, remember when I told you to format the internal drive? If you selected the first name (Big Sur), type "Big\ Sur" (no quotes) and run it. If you chose the alternative name, type "BS" (no quotes) and run it.
+5. reboot to the internal drive and everything "should" be fixed.
 
 # big-sur-automator related links and certified forks
 - **https://www.github.com/nonforgettable/big-sur-automator/canary Canary on-development versions
@@ -52,4 +57,4 @@ Contact if you have a problem thats too simple for a issue, help for forking, ot
 
 # Beta / Dev / Canary test
 Currently, only canary version exists and it's fully open to users (https://www.github.com/nonforgettable/big-sur-automator/canary) but, it will soon be closed soon. Contact me via above to request to be a beta / dev / canary tester. 
-
+ 
