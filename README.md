@@ -1,4 +1,4 @@
-
+# The canary version was moved to a private repo, contact for access.
 
 # Big Sur Automator "it saves your ass."
 
